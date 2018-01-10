@@ -1,0 +1,7 @@
+{
+	"name" : "Фатон 1",
+	"description" : "Сетевая операционна система ФАТОН 1",
+	"display" : "fullscreen",
+	"short_name" : "FaOS",
+	"start_url" : "/"
+}

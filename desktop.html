@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="manifest.json" rel="manifest"/>
+	<link href="css/styles.css" rel="stylesheet"/>
+	<meta charset="utf-8" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no" name="viewport"/>
+	<title>Фатон 1</title>
+</head>
+<body onload="LoadClock();">
+	<div class="StatusBar" id="StatusBar">
+		<a class="MenuItem">
+			File
+			<ul class="MenuList">
+			<li>Create New File&hellip;</li>
+			<li>Open File&hellip;</li>
+			<li>Save File As&hellip;</li>
+		</ul>
+		</a>
+		<a class="MenuItem">
+			Edit
+			<ul class="MenuList">
+				<li>Undo&hellip;</li>
+				<li>Redo&hellip;</li>
+				<li>Copy&hellip;</li>
+				<li>Cut&hellip;</li>
+				<li>Paste&hellip;</li>
+			</ul>
+		</a>
+		<a class="MenuItem">
+			View
+			<ul class="MenuList">
+				<li>Grid</li>
+				<li>List</li>
+				<li>Clear Homescreen&hellip;</li>
+			</ul>
+		</a>
+		<a class="MenuItem">
+			Help
+			<ul class="MenuList">
+				<li>About</li>
+				<li>How to use Apps&hellip;</li>
+				<li>How to use Terminal&hellip;</li>
+			</ul>
+		</a>
+		<span id="Clock"></span>
+	</div>
+	<div class="App">
+	  Terminal
+	  <div class="Layout">
+	      <textarea class="TextField" id="Terminal" readonly style="background: black; border: none; border-radius: 0; color: White; height: 320px; width: 100%;"></textarea>
+		  <input class="TextField" id="CommandLine" style="width: 100%;"/>
+	  </div>
+	</div>
+    <div class="App">
+	    File List
+	    <div class="Layout">
+		    <div class="TextField" id="FileList"></div>
+		    <div class="TextField" id="DirectoryContent"></div>
+		</div>
+	</div>
+</body>
+<script src="js/Clock.js"></script>
+<script src="js/FileList.js"></script>
+<script src="js/Main.js"></script>
+<script src="js/Terminal.js"></script>
+</html>
