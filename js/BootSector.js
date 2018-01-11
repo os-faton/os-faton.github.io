@@ -26,5 +26,3 @@ setTimeout(function() {
 setTimeout(function() {
 	window.location.href = "desktop.html";
 }, 8000);
-
-clearTimeout();
