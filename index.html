@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="css/bootloader.css" rel="stylesheet"/>
+	<link href="manifest.json" rel="manifest"/>
+	<link href="css/styles.css" rel="stylesheet"/>
 	<meta charset="utf-8" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no" name="viewport"/>
-	<title>Web BootSector&hellip;</title>
+	<title>Фатон 1</title>
 </head>
 <body>
-	<center>
-		<h1>OS "Faton"</h1>
-		<h5>Powered by Neubauten Software</h5>
-		<p id="Progress"></p>
-		<p>For advanced information visit <a href="https://vk.com/neubauten_software">this</a></p>
-	</center>
+	<textarea class="TextField" id="Terminal" readonly style="background: black; border: none; border-radius: 0; color: White; height: 320px; width: 100%;"></textarea>
+	<input class="TextField" id="CodeLine" placeholder="# Код на языке программирования &quot;Космос&quot;" style="width: 100%;"/>
+	<input class="TextField" id="CommandLine" placeholder="// Ввод команд здесь:" style="width: 100%;"/>
 </body>
-<script src="js/BootSector.js"></script>
+<script src="js/Kosmos.js"></script>
+<script src="js/Terminal.js"></script>
 </html>
