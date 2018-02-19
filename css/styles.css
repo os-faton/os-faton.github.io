@@ -1,6 +1,6 @@
 *
 {
-	font-family: HelveticaNeue;
+	/* font-family: HelveticaNeue; */
 	margin: 0;
 	outline: none;
 	padding: 0;
@@ -10,138 +10,46 @@
 
 body
 {
-	background: -webkit-linear-gradient(45deg, #00B8D4, #263238);
-	background-position: center;
-	object-fit: cover;
+  background: Black;
+  overflow: hidden;
 }
 
-.App
+input
 {
-	background: rgba(0, 0, 0, 0.25);
-	border: 1px solid Black;
-	border-radius: 8px;
-	box-shadow: 0 0 16px Black;
-	padding: 0.5em;
-	text-shadow: 0 0 8px White;
+  border: none;
 }
 
-.App .Button
+.TextField
 {
-	background: -webkit-linear-gradient(top, #EEEEEE, #949494, #AAAAAA);
-	border: 1px solid Gray;
-	border-radius: 8px;
-	padding: 0.5em 2em;
-	transition: all 025s ease-in-out;
-}
-
-.App .Button:active
-{
-	background: -webkit-linear-gradient(top, #AAAAAA, #949494, #EEEEEE);
-	color: white;
-}
-
-.App .Layout
-{
-	background: White;
-	margin-top: 0.5em;
-	overflow: hidden;
-	padding: 0.5em;
-}
-
-.App .Menu
-{
-    background: -webkit-linear-gradient(top, #FFFFFF, #AAAAAA);
-	border-radius: 8px;
-	display: none;
-	overflow: hidden;
-	width: 240px;
-}
-
-.App .TextField
-{
-	background: #EEEEEE;
-	border: 1px solid Gray;
-	box-sizing: border-box;
-	border-radius: 4px;
-	color: #949494;
+	background: Black;
+	color: White;
 	font-family: Consolas, monospace;
-	padding: 0.5em;
 	resize: none;
 }
 
-.App .TextField::selection
+.TextField::selection
 {
 	color: White;
 	background: Red;
 }
 
-.App .TextField::-webkit-scrollbar
+.TextField::-webkit-scrollbar
 {
 	width: 8px;
 }
 
-.App .TextField::-webkit-scrollbar-thumb
+.TextField::-webkit-scrollbar-thumb
 {
-	background: #03A4F9;
+	background: Green;
 }
 
-.App .TextField::-webkit-scrollbar-track
+.TextField::-webkit-scrollbar-track
 {
-	background: #FFFFFF;
+	border: 1px dashed Green;
 }
 
-.StatusBar
-{
-	background: -webkit-linear-gradient(top, #EEEEEE, #949494, #EEEEEE);
-}
-
-.StatusBar *
-{
-	transition: all 0.25s ease-in-out;
-}
-
-.StatusBar .MenuItem
-{
-	color: #424242;
-	font-weight: Bold;
-	margin: 0.5em;
-	text-decoration: none;
-}
-
-.StatusBar .MenuItem .MenuList
-{
-	background: -webkit-linear-gradient(top, #FFFFFF, #AAAAAA);
-	border-radius: 8px;
-	display: none;
-	overflow: hidden;
-	width: 240px;
-}
-
-.StatusBar .MenuItem:hover .MenuList
-{
-	display: block;
-	position: absolute;
-}
-
-.StatusBar .MenuItem .MenuList li
-{
-	padding: 0.5em;
-	list-style: none;
-}
-
-.StatusBar .MenuItem .MenuList li:hover
-{
-	background: -webkit-linear-gradient(top, #304FFE, #00B8D4);
-	color: White;
-}
-
-#Clock
-{
-	float: right;
-}
-
-@font-face
+/* @font-face
 {
 	font-family: HelveticaNeue;
 	src: url(../fonts/HelveticaNeue-UltraLight.ttf);
-}
+} */
